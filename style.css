@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+body{
+    background-color: #fffa;
+}
+.main-container{
+    display: flex;
+    margin-top: 30px;
+}
+#banner-container,
+#form-container{
+    flex: 1 1 0;
+    width: 50%;
+
+}
+#banner-container{
+    text-align: right;
+}
+#banner-container img{
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 300px;
+}
+#form-container{
+    text-align: center;
+}
+
+
+#form-box{
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    margin-top: 30px;
+    width: 350px;
+}
+#instagram{
+    height: 50px;
+    width: 170px;
+    margin: 30px auto 0;
+}
+form{
+    margin-top: 20px;
+}
+form input{
+    display: block;
+    font-size: 12px;
+    padding: 11px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+
+#submit{
+ margin-top: 20px;
+ border-radius: 10px;
+ padding: 8px;
+ font-weight: bold;
+ color: white;
+ background-color: #4267B2;
+}
+.separator{
+    position: relative;
+}
+#line{
+    
+    border-top: 1px solid #dbdbdb;
+    width: 288px;
+    margin: 25px auto 35px;
+}
+.separator span{
+    position: absolute;
+    color:  #bbb;
+    background-color: #fff;
+    top: -6px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: -25px;
+    font-size: 14px;
+}
+
+
+#facebook-login{
+    margin-bottom: 25px;
+}
+#facebook-login a{
+  text-decoration: none;
+  color: #385185;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+#facebook-login img{
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+#forgot-password {
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+#forgot-password a{
+    text-decoration: none;
+    color: #373799;
+    font-weight: 100;
+}
+
+.cadastro-container{
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 10px;
+    padding: 25px;
+    font-size: 15px;
+}
+.cadastro-container a{
+    text-decoration: none;
+    color: #373799;
+    font-weight: bold;
+}
+#get-app{
+    text-align: center;
+    width: 350px;
+}
+#get-app p{
+    margin: 20px 0;
+    font-size: 13px;
+}
+#get-app img{
+  height: 40px;
+  width: 136px;
+  margin:0  10px;
+}
+#get-app a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer-links{
+    display: flex;
+    list-style: none;
+}
+#footer-links li{
+    margin-right:10px ;
+}
+
+#footer-links a,
+#copy{
+
+    text-decoration: none;
+    color: #8b8b8b;
+    font-size:12px;
+}
+#copy{
+    margin-top: 10px;
+}
+@media (max-width: 420px) {
+    #banner-container{
+        position: absolute;
+    }
+    
+    #banner-container img {
+        display: none;
+    }
+
+}
